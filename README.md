@@ -1,30 +1,54 @@
-# Proyek Tugas Machine Learning
+# 🚀 Machine Learning Mini Project Collection
 
-Proyek ini berisi rangkaian tugas mata kuliah Machine Learning, mulai dari persiapan data hingga pembuatan model ANN.
+Selamat datang di repository yang berisi kumpulan proyek Machine Learning selama perkuliahan. Mulai dari eksplorasi data mentah sampai pembuatan model Artificial Neural Network yang bisa dipakai untuk klasifikasi.
 
-## Struktur Folder
+---
 
-* `/data/`: Berisi file CSV mentah dan yang sudah diproses.
-* `/scripts/`: Berisi semua skrip Python untuk setiap pertemuan (`.py`).
-* `/reports/`: Berisi laporan akhir dalam format PDF.
-* `/results/images/`: Berisi semua plot dan grafik yang dihasilkan (ROC, PR, dll).
-* `/results/models/`: Berisi file model yang telah dilatih (`.pkl`).
+## 📁 Struktur Direktori
 
-## Tugas yang Dikerjakan
+| Folder | Deskripsi |
+|--------|-----------|
+| `/data/` | Dataset mentah dan hasil preprocessing dalam format CSV |
+| `/scripts/` | Script Python tiap pertemuan (`.py`) |
+| `/reports/` | Laporan akhir format PDF |
+| `/results/images/` | Visualisasi hasil model seperti ROC dan PR curve |
+| `/results/models/` | Model yang sudah dilatih (`.pkl`) |
 
-* **Pertemuan 4:** Data Preparation (Cleaning, EDA, Feature Engineering)
-* **Pertemuan 5:** Modeling (Baseline, Tuning, Evaluasi)
-* **Pertemuan 6:** Random Forest (Feature Importance)
-* **Pertemuan 7:** Artificial Neural Network (TensorFlow/Keras)
+---
 
-## Cara Menjalankan
+## ✅ Progress Tugas
 
-1.  Pastikan semua library di `requirements.txt` terinstal.
-2.  Jalankan skrip dari dalam folder `scripts/`.
-3.  Simpan semua file python dan data dalam 1 folder yang sama
+| Pertemuan | Materi | Keterangan |
+|----------|--------|------------|
+| 4 | Data Preparation | Cleaning, EDA, dan Feature Engineering |
+| 5 | Modeling | Baseline model, tuning, dan evaluasi |
+| 6 | Random Forest | Feature importance dan analisis |
+| 7 | Artificial Neural Network | Model klasifikasi menggunakan TensorFlow/Keras |
+
+---
+
+## ▶️ Cara Menjalankan
+
+1. Install semua library yang dibutuhkan:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. Jalankan script dari dalam folder `scripts`:
     ```bash
     cd scripts
     python Tugas4.py
     python Tugas5.py
-    # dan seterusnya
+    # lanjut sesuai pertemuan
     ```
+
+3. Pastikan semua file python dan data berada dalam satu folder project supaya tidak error path.
+
+---
+
+## ⭐ Catatan Tambahan
+
+* Semua tugas mengikuti alur pembelajaran Machine Learning step-by-step.
+* Hasil training model dan visualisasi otomatis tersimpan di folder `/results/`.
+
+---
